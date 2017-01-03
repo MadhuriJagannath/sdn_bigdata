@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.verizon.sdn</groupId>
-  <artifactId>simpleLogParse</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>SdnBigDataAnalytics</artifactId>
+  <version>1.1-SNAPSHOT</version>
   <name>${project.artifactId}</name>
   <description>My wonderfull scala app</description>
   <inceptionYear>2016</inceptionYear>
@@ -13,11 +13,12 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
-    <scm>
-    <connection>scm:git:https://github.com/MadhuriJagannath/sdn_bigdata</connection>
-    <developerConnection>scm:git:https://github.com/MadhuriJagannath/sdn_bigdata</developerConnection>
-    <url>https://github.com/MadhuriJagannath/sdn_bigdata</url>
-    </scm>
+  <scm>
+      <connection>scm:git:https://madhuri_jagannath@bitbucket.org/madhuri_jagannath/sdn_bigdata.git</connection><!--https://github.com/MadhuriJagannath/sdn_bigdata</connection-->
+    <developerConnection>scm:git:https://madhuri_jagannath@bitbucket.org/madhuri_jagannath/sdn_bigdata.git</developerConnection>
+    <url>https://madhuri_jagannath@bitbucket.org/madhuri_jagannath/sdn_bigdata.git</url>
+      <tag>HEAD</tag>
+  </scm>
   <properties>
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
